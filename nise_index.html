@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no" />
+<title>YAKUSHIMA</title>
+<meta name="description" content="屋久島の女性向け観光PRサイトの女子旅です。女性が好きなジブリ映画のモデルとなった縄文杉や白谷雲水峡、他にもおすすめの観光スポットや、温泉や宿泊施設も掲載しております。">
+<meta name="author" content="">
+<meta name="keywords" content="屋久島,女子旅,ジブリ,温泉,泊まる,縄文杉,白谷雲水峡,もののけ姫,観光,パワースポット,">
+<meta name="viewport" content="width=device-width">
+<!--CSS-->
+
+<meta name="viewport" content="width=device-width">
+
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<link href="css/class.css" rel="stylesheet" type="text/css">
+
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="style.css"> -->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>-->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+
+	$("#menubtn").click(function(){
+		$("#navbtn").slideToggle();
+	});
+
+});
+</script>
+<script>
+$(function(){
+    var ua = navigator.userAgent;
+    if(ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0){
+        $('.tel_link').each(function(){
+            var str = $(this).text();
+            $(this).html($('<a>').attr('href', 'tel:' + str.replace(/-/g, '')).append(str + '</a>'));
+        });
+    }
+});
+</script>
+<!--- 必要なスクリプト関連記述 -->
+<!-- GoogleAnalytics -->
+<script src="js/analytics.js" type="text/javascript"></script>
+<!-- GoogleAnalytics END -->
+
+</head>
+
+
+
+
+<body>
+
+
+
+<!--ヘッダー-->
+
+
+<header class="headerTop">
+<div class="ContentsBlock">
+<div class="headerleft">
+	
+	<h1><a href="nise_index.html">YAKUSHIMA</a></h1>
+
+</div>
+
+<div class="headerright">
+
+	<button type="button" id="menubtn">
+	<i class="fa fa-bars"></i><span>MENU</span>
+	</button>
+	
+	
+	
+
+	<div class="top_side_menu" id="navbtn">
+	<ul>
+	<li><a href="nise_form.html" target="_blank">お問い合わせ</a></li>
+	<li><a href="#" target="_blank">サイトマップ</a></li>
+	</ul>
+	</div>
+
+</div>
+</div>
+</header>
+
+
+
+<!--ヘッダー-->
+
+
+
+
+
+<!--画像-->
+<div class="ContentsBlock text_center">
+	<p><img src="images/img-top-01.jpg" alt="屋久島の画像"></p>
+</div>
+<!--画像-->
+
+
+
+
+
+<!--メニュー-->
+<nav class="maginTop20 ContentsBlock">
+	<ul class="clearfix fo_L list_nav">
+		<li><a href="nise_tourism.html" target="_blank" class="green_button">観光</a></li>
+		<li><a href="#" target="_blank" class="yellow_button" id="hotsprings">温泉</a></li>
+		<li><a href="#" target="_blank" class="pink_button">泊まる</a></li>
+		<li><a href="nise_form.html" target="_blank" class="blue_button" id="contactus">お問い合わせ</a></li>
+	</ul>
+</nav>
+<!--メニュー-->
+
+
+<main id="main" class="ContentsBlock breadth">
+
+
+
+
+
+	<div id="contentsu" style="width: 100%;" class="clearfix">
+
+
+
+
+
+		<section class="maginTop30 float_left" id="new">
+
+
+
+			<h3 class="fo_L title01">新着情報</h3>
+
+
+
+				<ul class="maginTop10">
+					<li>
+						<time datetime="2016-12-27">2016.12.27</time>
+						<div class="text fo_S"><a href="#" target="_blank">荒川線の停電についてのお知らせ</a>
+						</div>
+					</li>
+					<li>
+						<time datetime="2016-12-21">2016.12.21</time>
+						<div class="text fo_S"><a href="#" target="_blank">観光協会年末年始の営業について</a>
+						</div>
+					</li>
+					<li>
+						<time datetime="2016-12-21">2016.12.21</time>
+						<div class="text fo_S">
+						<a href="#" target="_blank">「冬のクラフト体験」のお知らせ</a>
+						</div>
+					</li>
+					<li>
+						<time datetime="2016-11-30">2016.11.30</time>
+						<div class="text fo_S"><a href="#" target="_blank">縄文杉デッキ工事のお知らせ</a>
+						</div>
+					</li>
+				</ul>
+		</section>
+
+
+
+
+
+	<article id="sade_banner" class="maginTop30 float_right banner_text">
+		<section id="sade_banner01_go" class="banner01_go"><a href="#">屋久島へ行く</a></section>
+		<section id="sade_banner01_koutuu" class="maginTop20 banner01_koutuu"><a href="#">鹿児島県交通情報</a></section>
+	</article>
+
+
+
+
+
+</div>
+
+
+
+
+<article class="maginTop30 maginbottom30 clearfix breadth" id="main02">
+
+
+
+
+
+	<h4 class="title_gray fo_LL indent01 maginbottom20">おすすめ</h4>
+
+
+
+	<div class="gaiyouTop">
+		<article class="gaiyou">
+			<a href="nise_tourism.html">
+			<img src="images/img01.jpg" alt="屋久島おすすめの縄文杉">
+			<h4>縄文杉</h4>
+			<p>屋久島へ訪れたなら絶対に外せない場所です。樹齢約7000・年の大樹は屋久島一のパワースポットです。</p>
+		</a>
+		</article>
+
+		<article class="gaiyou">
+			<a href="nise_tourism.html">
+			<img src="images/img02.jpg" alt="屋久島おすすめの白谷雲水峡" />
+			<h4>白谷雲水峡</h4>
+			<p>緑色の苔で覆われた幻想的な世界が広がっており、映画「もののけ姫」に出てくる原始の森のモデルとなりました。</p>
+			</a>
+		</article>
+
+
+	</div>
+
+
+	
+</article>
+
+
+
+<div class="maginTop30;" id="top">
+	<p><a href="#" class="gray_button fo_S">戻る</a></p>
+</div>
+
+
+
+
+
+</main>
+
+
+
+
+
+<footer id="footer" class="clearfix maginTop10">
+  <div class="ContentsBlock">
+  <div id="footer_left" class="float_left">
+    <ul>
+      <li class="fo_SS">プライバシーポリシー</li>
+      <li class="fo_SS">屋久島観光協会について</li>
+      </ul>
+  </div>
+
+
+
+
+
+    <div id="footer_right" class="float_right">
+      <p class="fo_S"><strong>公益社団法人屋久島観光協会</strong></p>
+      <ul class="fo_SS">
+        <li>〒891-4207　鹿児島県熊毛郡屋久島町小瀬田310-1</li>
+	    <li>TEL:<span class="tel_link">06-6352-4523</span> / FAX:××7-49-4011</li>
+        </ul>
+      <small>Copyright&copy; Yakushima Tourism Association All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+input[type="text"],
+input[type="email"],
+textarea {
+	margin: 0;
+	box-sizing:border-box;
+	padding: 0.5rem;
+	width: 100%;
+	border: 2px solid #dadada;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	}
+
+textarea {
+	height:140px;
+}
+	
+
+@media screen and (min-width:736px) {
+	input[type="text"],
+	input[type="email"],
+	textarea { 
+		width: 980px;
+}
+

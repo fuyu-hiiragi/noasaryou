@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+
+body
+   { font-family: "MS P ゴシック","Hiragino Kaku Gothic Pro";
+    background-color: #ADB16B;
+   }
+
+
+/* サイト全体 */
+
+.container
+   {  width: 80%;
+     color: #000000;
+     margin: 0 auto;
+     padding: 0 auto;
+     background-color: #ADB16B;
+     overflow:auto;
+     border-left:2px solid #ffffff;
+     padding-left: 5%;
+     border-right:2px solid #ffffff;
+     padding-right: 5%;
+     }
+
+
+/* サイト名 */
+.head
+{
+   text-align: left;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+   display: block;
+   font-size: 20px;
+
+}
+
+.left-head
+  {
+  width: 30%;
+
+}
+.main
+{
+	width: 99%;
+	margin: auto;
+  padding: auto;
+ }
+
+.main img/*画像*/
+
+{
+  margin: 0 auto;
+  padding: 0 auto;
+
+
+}
+
+
+
+.main ul
+{
+  overflow: hidden;
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+figuer {
+  border-bottom: 1px solid #BAB89B;
+}
+
+
+
+/* メニュー */
+.menu
+{
+  margin-bottom: 40%;
+
+}
+
+.menu a
+
+{  width: 1em;
+   float: right;
+   font-size: 18px;
+   padding: 5%;
+   font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+   margin-right: 0%;
+}
+
+.menu ul
+{  margin: auto;
+  list-style: none;
+  text-align: center;
+  }
+
+
+.menu li  {
+  float: right;
+  width: auto;
+  padding-left: 5%;
+  }
+
+.menu a
+{
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu a:hover
+{ color: #ffffff; }
+
+
+
+
+/*お知らせ*/
+
+.new{ margin-left: 0px;
+      margin-bottom: 40px;
+      margin-right: 24%;
+
+}
+
+.new h2 {
+	font-size: 20px;
+  font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+  letter-spacing: 6px;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+
+.new h3 {
+	font-size: 18px;
+  font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+
+
+}
+
+.new-text {
+  margin: auto;
+  padding: auto;
+}
+.new ul
+{  list-style: none;
+  margin: auto;
+  padding: auto;
+
+}
+
+.new li
+{ display: block;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: solid 1px #ffffff;
+}
+
+/*メイン記事*/
+
+h4
+{  width: 1em;
+   font-size: 25px;
+   font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+   padding: auto;
+   margin: auto;
+   float:right;
+
+}
+
+figcaption
+{
+	font-size: 18px;
+	font-family: "ＭＳ Ｐ明朝","Hiragino Mincho Pro";
+	font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+}
+
+p {
+	font-size: 16px;
+  padding: 10px;
+}
+
+.kiji {
+	border: 2px solid #BAB89B;
+  background-color: #FFF;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -o-border-radius: 1px;
+  -ms-border-radius: 1px;
+  margin-right: 0px;
+  padding: 0 auto;
+  margin: 0 auto; ;
+}
+
+/* ########### 1040px以上 ########### */
+/*配置*/
+/*@media (min-width: 1040px) {*/
+
+  .head:after {content: "";
+    display: block;
+    clear: both;
+    }
+
+ .left-head {
+   float: left;
+}
+
+  .osirase
+  {  padding: 0 auto;
+  margin: 0 auto; }
+
+  .kiji-main
+{
+  width: 95%;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+  .boxA:after {content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 5%;
+    }
+
+  .box3
+   {float: right;
+    width: 50%;
+   }
+
+  .box4
+  {float: left;
+    width: 50%;}
+
+
+
+  .boxB:after
+   {content: "";
+	display: block;
+	clear: both;
+  margin-bottom: 10%;
+
+  }
+
+
+  .box5
+   {float: right;
+      width: 20%;
+
+    }
+
+  .box6 {float: right;
+    width: 35%;
+    margin-left: 5%;
+	background-color: #FFFFFF;
+  margin-right: 0%;
+
+    }
+
+  .box7 {float: left;
+    width: 35%;
+    margin-left: 0%;
+	background-color: #FFFFFF;
+  }
+
+
+
+    .boxC:after {content: "";
+	display: block;
+	clear: both;
+  margin-bottom: 5%;}
+
+    .box8
+       {float: right;
+          width: 20%;}
+
+    .box9 {float: left;
+      width: 35%;
+      margin-left: 0%}
+
+    .box10 {float: right;
+      width: 35%;
+      margin-left: 5%}
+
+
+
+    /*}*/

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@import url("yakusima_pc.css") all and (min-width:737px);
+@import url("yakusima_sp.css") screen and (max-width:736px);
+@import url("tourism_pc.css") all and (min-width:737px);
+@import url("tourism_sp.css") screen and (max-width:736px);
+
+
+@import url("yakusima_pc.css") print;

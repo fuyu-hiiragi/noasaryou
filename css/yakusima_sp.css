@@ -1,0 +1,311 @@
+
+
+.ContentsBlock{
+	width:100%;
+	/*padding:0 15px;*/
+	margin: 0 auto;
+
+}
+
+.breadth {
+	width : -webkit-calc(100% - 20px) ;
+	width : calc(100% - 20px) ;
+	margin: 0 auto;　
+}
+
+
+
+.pankuzu {
+	list-style: none;
+	width: 90%;
+	padding: 3px 20px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+
+
+
+
+
+
+#contentsu {
+	width: 100%;
+}
+
+
+
+
+
+/* サイト名 */
+	
+
+.headerleft h1	{margin: 0;
+		font-size: 30px;
+		margin-left: 5px;
+		color: #000;}
+
+	
+.headerleft h1 a{ 
+		color: #000!important;}
+
+/* headerleftとheaderrightを横に並べる設定 */
+.headerTop:after	{content: "";
+	display: block;
+	clear: both}
+
+
+.headerTop	{
+	margin-top: 20px;
+
+			}
+
+
+
+
+
+
+
+
+/* ボタン */
+#menubtn	{padding: 6px 12px;
+	border: solid 1px #aaaaaa;
+	border-radius: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	cursor: pointer}
+
+#menubtn:hover	{background-color: #dddddd}
+
+#menubtn:focus	{outline: none}
+
+#menubtn i	{color: #888888;
+	font-size: 18px}
+
+#menubtn span	{display: inline-block;
+	text-indent: -9999px}
+
+/* ナビゲーションメニュー（縦並び） */
+.top_side_menu	{display: none}
+
+.top_side_menu ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+
+.top_side_menu li a	{display: block;
+	width: 100%;
+	padding: 5px;
+	border-bottom:#ccc 1px solid;
+	
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;}
+
+.top_side_menu li a:hover	{background-color: #eeeeee;}
+
+
+
+
+.left_sp { float: left; }
+
+
+.right_sp { float: right; }
+
+
+ 
+ul.list_nav {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+	ul.list_nav li a {
+
+		width: 49%;
+		border-radius: 5px;
+		line-height: 4em;
+		margin-top: 2%;
+		text-align: center;
+		float: left;
+		margin-right: 1%;
+	}
+
+
+
+
+#hotsprings { margin-right: 0%;
+					margin-left: 1%;
+}
+
+
+#contactus { margin-right: 0%;
+					margin-left: 1%;
+}
+
+
+a:hover {
+	color: #A0522D;
+
+}
+
+
+
+
+
+
+
+#main { width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+
+}
+
+
+#new { width: 100%;
+
+
+
+
+}
+
+
+#new h3{
+		   width: 100%;
+		   text-align:left;
+			border-bottom: #ccc 2px solid;
+
+
+}
+
+
+
+
+#new ul li {
+
+		border-bottom:dotted #000 1px;
+		margin-bottom: 5px;
+		text-align:left;
+		font-size: 0.875em;
+
+}
+
+
+
+
+.title_gray2 {
+margin-bottom: 15px;
+font-size: 2em;
+color: #000;
+background: #ccc;
+background: url(../images/mark1.png) no-repeat 10px center, #ccc;
+padding: 5px 40px;
+border-radius: 5px;
+letter-spacing: 0.1em;
+
+}
+
+#sade_banner { text-align: center;
+							width:100%;
+							margin-right: auto;
+							margin-left: auto;
+}
+
+
+#sade_banner01_go a {
+						width: 100%;
+						border-radius: 5px;
+						line-height: 5em;
+
+}
+
+.font_h1 { font-size: 1em;
+}
+
+#sade_banner01_koutuu a {
+						width: 100%;
+						border-radius: 5px;
+						line-height: 5em;
+}
+
+
+
+#main02 {  width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+
+}
+
+
+
+
+
+/* 概要 */
+.gaiyou	{margin-bottom: 20px}
+
+.gaiyou a	{display: block;
+	border: solid 1px #dddddd;
+	color: #000000;
+	text-decoration: none}
+
+.gaiyou a:hover	{box-shadow: 0 0 10px #dddddd}
+
+.gaiyou img	{max-width: 100%;
+	height: auto;
+	border: none;
+	margin-bottom: 15px;
+	vertical-align: bottom}
+
+.gaiyou h4	{margin-top: 0;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 22px}
+
+.gaiyou p	{margin-top: 0;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 14px}
+
+
+
+
+#top { width: 100%;
+				text-align: center;
+				margin-right: auto;
+				margin-left: auto;
+					}
+
+#top a { border-radius: 5px;
+					line-height: 2em;
+					width: 100%;
+					display: block;}
+
+
+#footer {width:100%;
+				margin-right: auto;
+ 				margin-left: auto;
+			  background-color:#CCC;
+			  padding-bottom: 30px;
+			padding-top: 30px;
+
+
+}
+
+#footer_left {
+	width:100%;
+	text-align:center;
+	margin-right: auto;
+ 	margin-left: auto;
+}
+#footer_right { width:100%;
+	text-align:center;
+	margin-right: auto;
+ 	margin-left: auto;
+	margin-top: 20px;
+}

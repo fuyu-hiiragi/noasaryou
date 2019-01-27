@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*共有*/
+
+
+
+a {
+	text-decoration: none;
+
+}
+
+html {
+font-family : verdana, sans-serif;
+line-height : 1.5;
+}
+
+
+img { max-width : 100%;
+
+}
+
+
+
+
+
+h3,h4,h5,h6 {
+	font-size : 1em; /* 16px */
+	line-height : 1.5; /* 24px */
+	
+}
+
+
+
+.pankuzu {
+	list-style: none;
+	
+	padding: 3px 20px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+.pankuzu a {
+	color: #e87a19;
+	text-decoration: none;
+}
+.pankuzu li {
+	display: inline-block;
+}
+.pankuzu li::after {
+	content: "»";
+	padding: 0 5px;
+	color: #b3b3b3;
+}
+.pankuzu li:last-child::after {
+	content: none;
+}
+
+
+
+
+
+/*共有*/
+
+
+
+
+
+
+.float_left { float:left; }
+
+.float_right { float:right; }
+
+
+.width30 { width: 30%;
+}
+
+
+.width35 { width: 35%;
+}
+
+.width40 { width: 40%;
+}
+
+.width45 { width: 45%;
+}
+
+
+.width80 { width: 80%;
+
+}
+
+.width90 { width: 90%;
+
+}
+.width98 { width: 98%;
+
+}
+.width100 { width: 100%;
+
+}
+
+
+
+
+
+.fo_SS{
+	font-size:1em;
+}
+.fo_S{
+	font-size:1.25em;
+}
+.fo_L{
+	font-size:1.3em;
+}
+.fo_LL{
+	font-size:1.5em;
+}
+.fo_LLL{
+	font-size: 2em;
+
+}
+
+.fo_LLLL{
+	font-size:3em;
+}
+
+.fo_LLLLL{
+	font-size:4em;
+}
+
+.text_left{
+	text-align:left;
+}
+.text_right{
+	text-align:right;
+}
+.text_center{
+	text-align:center;
+}
+
+
+.green { background-color:#27ACA9;
+}
+
+.yellow { background-color:#F2E55C;
+}
+
+.pink { background-color:#DD6673;
+}
+
+.blue { background-color:#00AEE0;
+}
+
+.red { background-color:#FF0000;
+}
+
+
+/*文字の色*/
+
+.f_red { color:#FF0000;
+}
+
+
+
+.maginTop1p
+      { margin-top: 1%; }
+
+
+.maginTop5
+      { margin-top: 5px; }
+
+
+.maginTop10
+      { margin-top: 10px; }
+
+.maginTop15
+      { margin-top: 15px; }
+
+.maginTop20
+      { margin-top: 20px; }
+
+.maginTop25
+      { margin-top: 25px; }
+
+
+.maginTop30
+      { margin-top: 30px; }
+
+.maginTop35
+      { margin-top: 35px; }
+
+.maginTop40
+      { margin-top: 40px; }
+
+.maginTop45
+      { margin-top: 45px; }
+
+
+
+.maginbottom5
+      { margin-bottom: 5px; }
+
+
+.maginbottom10
+      { margin-bottom: 10px; }
+
+.maginbottom15
+      { margin-bottom: 15px; }
+
+.maginbottom20
+      { margin-bottom: 20px; }
+
+.maginbottom25
+      { margin-bottom: 25px; }
+
+
+.maginbottom30
+      { margin-bottom: 30px; }
+
+.maginbottom35
+      { margin-bottom: 35px; }
+
+.maginbottom40
+      { margin-bottom: 40px; }
+
+.maginbottom45
+      { margin-bottom: 45px; }
+
+/*.img { width: 100%;
+			max-width: 100%;
+			 height: auto;
+			margin-left: auto;
+			margin-right: auto; } */
+
+
+.button {
+	background-color: #a9a9a9;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 2em;
+
+}
+.button a:hover {
+	background-color: #59b1eb;
+}
+
+.button_top4 { margin-top: 4%;
+			  display: block;
+}
+
+.button_bottm4 { margin-bottom: 4%;
+			  display: block;
+}
+.center { margin-left: auto;
+					margin-right: auto;}
+
+
+.all {
+　　max-width: 980px;
+　　margin: auto;
+}
+
+
+/*ボタンの色*/
+.green_button { background-color:#27ACA9;
+}
+
+.green_button:hover	{background-color: #00CED1;}
+
+
+.yellow_button { background-color:#F2E55C;
+}
+
+.yellow_button:hover	{background-color: #FFF67F}
+
+.pink_button { background-color:#DD6673;
+
+}
+.pink_button:hover {background-color: #EF858C}
+
+.blue_button { background-color:#00AEE0;
+
+}
+
+.blue_button:hover {background-color: #54C3F1;}
+
+
+.gray_button { background-color:#bfbfbf;
+}
+
+.gray_button:hover	{background-color: #ccc;}
+
+
+
+.title_gray { padding: .5em .0em;
+					background-color: #f6f6f6;
+					border-bottom: 1px solid #ccc;
+				}
+
+
+
+
+/*下線の幅、線*/
+.dotted
+{ border-bottom: 2px dotted #f6f6f6;	}
+
+
+/*1文字空ける*/
+.indent01
+{ text-indent: 1em;}
+
+/*後に空ける*/
+.after01 {
+	margin-right: 5px;
+}
+
+/*見出し*/
+
+.title01
+{ border-bottom: 2px #ccc solid!important;
+}
+
+
+
+/*cleaffix*/
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+
+.banner_text {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #fff,
+    -2px 2px 1px #fff,
+    2px -2px 1px #fff,
+    -2px -2px 1px #fff;
+}
+
+
+.banner01_go {
+	background-image: url(../images/banner01.jpg);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #ccc;
+}
+
+.banner01_go:hover {
+	opacity: 0.5;
+}
+
+
+
+.banner01_koutuu {
+	background-image: url(../images/banner02.jpg);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #ccc;
+}
+
+.banner01_koutuu:hover {
+	opacity: 0.5;
+}
+
+

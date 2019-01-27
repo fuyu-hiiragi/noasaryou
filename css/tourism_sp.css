@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+#contents_left{
+	width: 100%;
+}
+	#contents_left img {
+	max-width: 100%;
+	border-radius: 50%;
+	text-align: center;
+	width: 80%;
+}
+	#contents_right {
+	width: 100%;
+}
+	#main p {
+    clear: both;
+    line-height: 1.7;
+
+}
+
+table {
+  
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  border-collapse: collapse;
+  
+  text-align: center;
+}
+
+table a {
+  color: #000;
+}
+
+
+table img {
+  max-width: 120px;
+  min-width: 30px;
+  height: auto;
+	display: block;
+	
+  
+}
+
+table th,
+table td {
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
+	width: 100%;
+	display: block;
+  
+}
+table th {
+
+}
+.td001 {
+    display: none;
+}
+
+.td002 { text-align: center;
+    		background-color: #E8E7E7;
+}
+
+table td .td003 { text-align: left;
+    
+}
+.td004
+{}
+  
+  
